@@ -1,0 +1,16 @@
+<div class="container p-3">
+    <div class="row g-3">
+        <div *ngFor="let event of model | myFilter:searchTermValue:['Title']" class="col-12 col-md-6 col-lg-4">
+            <div class="card">
+                <img src="{{ event.Images.original }}" class="card-img-top" [alt]="event.Title" />
+                <div class="card-body">
+                    <h5 class="card-title font-weight-bold">{{ event.Title }}</h5>
+                    <h6 class="card-subtitle text-muted mt-3 mb-3 font-weight-bold"> {{ event.Time }} | {{
+                        event.First_date | customDate }} </h6>
+                    <p class="card-text" [innerHtml]="event.Short_description"></p>
+                    <a href="#!" class="btn btn-primary btn-block">Book Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

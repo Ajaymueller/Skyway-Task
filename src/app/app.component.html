@@ -1,0 +1,6 @@
+<div class="container">
+    <app-breadcrumbs></app-breadcrumbs>
+    <app-navbar></app-navbar>
+    <app-event-filter (searchValueEmit)="setSearchTerm($event)"></app-event-filter>
+    <app-event-card [searchTermValue]="searchTerm"></app-event-card>
+</div>
