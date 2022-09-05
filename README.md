@@ -18,11 +18,11 @@ The aim of this assignment was to create a what's on page using json data provid
 
 ## Tools and technologies Used
 
-Angular
-TypeScript 
-BootStrap 
-Angular Material 
-Scss
+- Angular
+- TypeScript 
+- BootStrap 
+- Angular Material 
+- Scss
 
 ## The approach 
 
