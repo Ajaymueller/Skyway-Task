@@ -5,6 +5,7 @@ import { Observable } from 'rxjs';
 
 @Injectable({ providedIn: 'root' })
 export class EventDataService {
+    // url: string = "../assets/dummyData.json"; (used before proxy)
 
     constructor(private http: HttpClient
     ) { }
